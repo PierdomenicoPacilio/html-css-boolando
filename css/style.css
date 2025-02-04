@@ -32,10 +32,6 @@ body{
     top 
 *****************/
 
-/*******
-top-1
-*******/
-
 header{
     background-color: #ff6900;
     color: #ffffff;
@@ -43,7 +39,7 @@ header{
     top: 0;
 }
 
-.top-1{
+.top{
     max-width: 85%;
     margin: 0 auto;
     justify-content: space-between;
@@ -79,4 +75,26 @@ header{
 #logo {
     margin: 10px;
     height: 35px;
+}
+
+
+/*****************
+    main
+*****************/
+
+main{
+    padding: 50px 0;
+}
+
+#main-box {
+    max-width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;  
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc(100% / 3);
+    flex-shrink: 0;
+    padding: 10px;
 }
