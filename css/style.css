@@ -101,6 +101,7 @@ main{
     gap: 2px;
     flex-direction: column;
     position: relative;
+    padding-bottom: 40px;
 }
 
 .col a img {
@@ -121,6 +122,11 @@ main{
 
 .articolo{
     text-transform: uppercase;
+}
+
+.articolo a, .marca a{
+    text-decoration: none;
+    color: #000000;
 }
 
 .prezzi {
@@ -154,6 +160,10 @@ main{
     color: #ffffff;
 }
 
+#alone {
+    left: 0;
+}
+
 .cuoricino{
     position: absolute;
     z-index: 2;
@@ -163,4 +173,19 @@ main{
     top: 10px;
     right: 0;
     color: #000000;
+}
+
+.cuoricino:hover{
+    opacity: 0;
+}
+
+.cuoricino-2 {
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    font-size:x-large;
+    background-color: #ffffff;
+    top: 10px;
+    right: 0;
+    color: #ff0000; 
 }
