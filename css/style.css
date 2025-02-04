@@ -146,7 +146,7 @@ main{
     z-index: 2;
     background-color: #ff0000;
     padding: 2px;
-    bottom: 100px;
+    bottom: 140px;
     color: #ffffff;
 }
 
@@ -155,7 +155,7 @@ main{
     z-index: 2;
     background-color: #008000;
     padding: 2px;
-    bottom: 100px;
+    bottom: 140px;
     left: 50px;
     color: #ffffff;
 }
