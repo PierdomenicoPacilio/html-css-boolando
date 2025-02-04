@@ -6,3 +6,57 @@ reset
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/******** 
+common
+********/
+
+.container {
+    display: flex;
+}
+
+.debug{
+    /* display: none; */
+    border: 1px dashed #000000; 
+}
+
+body{
+    font-family:sans-serif
+}
+
+
+
+
+/*****************
+    top 
+*****************/
+
+/*******
+top-1
+*******/
+
+header{
+    background-color: #255ee9;
+    padding: 15px 0 0;
+    color: #ffffff;
+}
+
+.top-1{
+    max-width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.top-item{
+    padding: 15px;
+    flex-shrink: 0;
+}
+
+#link, #logo ,#link-2 {
+    justify-content: center;
+    align-items: center;    
+}
+
+
+/* Logo */
