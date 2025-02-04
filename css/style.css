@@ -37,6 +37,7 @@ header{
     color: #ffffff;
     position: sticky;
     top: 0;
+    z-index: 5;
 }
 
 .top{
@@ -91,10 +92,75 @@ main{
     margin: 0 auto;
     justify-content: space-between;  
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .col {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 10px);
     flex-shrink: 0;
+    gap: 2px;
+    flex-direction: column;
+    position: relative;
+}
+
+.col a img {
+    width: 100%;
+}
+
+.foto-1{
+    position: absolute;
+}
+
+.foto-1:hover {
+    opacity: 0;
+}
+
+.marca {
+    font-size: small;
+}
+
+.articolo{
+    text-transform: uppercase;
+}
+
+.prezzi {
+    gap: 10px;
+}
+
+.prezzo-scontato{
+    color: #ff0000;
+}
+
+.prezzo-intero {
+    text-decoration: line-through;
+}
+
+.sconto {
+    position: absolute;
+    z-index: 2;
+    background-color: #ff0000;
+    padding: 2px;
+    bottom: 100px;
+    color: #ffffff;
+}
+
+.etichetta{
+    position: absolute;
+    z-index: 2;
+    background-color: #008000;
+    padding: 2px;
+    bottom: 100px;
+    left: 50px;
+    color: #ffffff;
+}
+
+.cuoricino{
+    position: absolute;
+    z-index: 2;
     padding: 10px;
+    font-size:x-large;
+    background-color: #ffffff;
+    top: 10px;
+    right: 0;
+    color: #000000;
 }
