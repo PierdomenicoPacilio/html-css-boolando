@@ -37,9 +37,10 @@ top-1
 *******/
 
 header{
-    background-color: #255ee9;
-    padding: 15px 0 0;
+    background-color: #ff6900;
     color: #ffffff;
+    position: sticky;
+    top: 0;
 }
 
 .top-1{
@@ -48,15 +49,34 @@ header{
     justify-content: space-between;
 }
 
-.top-item{
-    padding: 15px;
-    flex-shrink: 0;
-}
-
 #link, #logo ,#link-2 {
     justify-content: center;
     align-items: center;    
 }
 
+/* link */
+
+.link{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.link > a:link, .link > a:visited, .link > a:active{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link > a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
 
 /* Logo */
+
+#logo {
+    margin: 10px;
+    height: 35px;
+}
