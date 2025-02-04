@@ -189,3 +189,50 @@ main{
     right: 0;
     color: #ff0000; 
 }
+
+
+
+
+/*****************
+    footer
+*****************/
+
+footer {
+    background-color: #1a1a1a;
+}
+
+.bot {
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.bot-item{
+    flex-direction: column;
+    padding: 10px;
+}
+
+.list{
+    list-style: none;
+    gap: 10px;
+}
+
+h5{
+    color: #ffffff;
+}
+
+.list li a{
+    font-size: xx-small;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bot-item span{
+    color: #ffffff;
+    font-size: xx-small;
+}
+
+#socials a{
+    color: #ffffff;
+    font-size: small;    
+}
